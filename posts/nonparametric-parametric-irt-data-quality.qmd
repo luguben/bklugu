@@ -1,0 +1,30 @@
+---
+title: "Combining Nonparametric and Parametric Item Response Theory to Explore Data Quality: Illustrations and a Simulation Study"
+date: 04/24/2024  # MM/DD/YYYY  update this to the actual publication date if different
+image: ../images/msa-nonparametric-irt.png
+author:
+  - name: Stefanie A. Wind
+    url: https://professorwind.science/
+    affiliation: The University of Alabama
+    affiliation-url: https://ua.edu
+
+  - name: Benjamin Lugu
+    url: https://benjaminlugu.com
+    affiliation: University of Arkansas
+    affiliation-url: https://uark.edu
+citation:
+  type: article-journal
+  container-title: "Applied Measurement in Education"
+  volume: "37"
+  issue: "2"
+  page: "109-131"
+  doi: 10.1080/08957347.2024.2345592
+  url: https://www.tandfonline.com/doi/full/10.1080/08957347.2024.2345592
+appendix-cite-as: bibtex
+categories: [Mokken Scale Analysis, Item Response Theory, Article]
+reading-time: true
+---
+
+
+
+Researchers who use measurement models for evaluation purposes often select models with stringent requirements, such as Rasch models, which are parametric. Mokken Scale Analysis (MSA) offers a theory-driven nonparametric modeling approach that may be more appropriate for some measurement applications. Researchers have discussed using MSA as a preliminary procedure with which to evaluate data quality before applying a parametric model. However, the literature includes only a few examples in which researchers have integrated MSA techniques with parametric models throughout the analytic procedure. We consider a systematic approach for integrating results from nonparametric MSA techniques with parametric measurement models to evaluate measurement quality and construct scales with useful measurement properties. We use real-data illustrations and a simulation study to demonstrate and systematically explore our approach. We discuss implications for research and practice.

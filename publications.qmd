@@ -1,0 +1,103 @@
+---
+title: "Research Publications"
+toc: false
+page-layout: full
+format:
+  html:
+    theme: default
+---
+
+
+
+Below is a curated selection of my peer-reviewed journal articles, methodological works, conference presentations, and manuscripts currently under review. My research centers on psychometrics, cognitive diagnosis modeling, item response theory, longitudinal modeling, and applied quantitative methods.
+
+
+
+## ✏️ Working Papers {.pub-section}
+
+::: {.pub-list}
+- **Lugu, B.**, & Akorful, V. *Ghana’s Free Senior High School Policy Implementation and Emergent Issues: An assessment of public perceptions of determinants and outcomes using data mining techniques.*
+- **Lugu, B.**, & Wind, S. A. *Impact of Item Characteristics on Item Selection Procedures in Mokken Scale Analysis.*
+- **Lugu, B.** & Ma, W. *The Impact of Missing Data in Longitudinal Diagnostic Classification Model.*
+- **Lugu, B.** & Ma, W. *Assessing the Performance of Wald Test in Detecting Item Parameter Drift in Longitudinal Diagnostic Classification Model.*
+:::
+
+
+
+## 📢 Conference Presentations {.pub-section}
+
+::: {.pub-list}
+- **Lugu, B.**, Chen, Y., Yin, Y., Ma, W. (2025). *Assessing the Performance of Wald Test for Detecting Item Parameter Drift in Longitudinal Cognitive Diagnosis Models* [Poster presentation]. National Council on Measurement Education (NCME) Conference 2025, Denver, USA.
+
+- **Lugu, B.**, & Wind, S. A. (2024). *Impact of Item Characteristics on Item Selection Procedures in Mokken Scale Analysis* [Paper presentation]. NCME Conference 2024, Philadelphia, USA.
+
+- Wind, S. A., **Lugu, B.**, & Wang, Y. (2024). *Combining Nonparametric and Parametric IRT to Explore Differences in Measurement Quality between Subgroups* [Paper presentation]. NCME Conference 2024, Philadelphia, USA.
+
+- **Lugu, B.**, Ma, W., Yin, Y., & Cheng, Y. (2024). *Assessing Intervention Effectiveness Using Longitudinal Cognitive Diagnosis Models* [Paper presentation]. NCME Conference 2024, Philadelphia, USA.
+
+- **Lugu, B.**, Ma, W., Guo, W., & Schumacker, R. (2023). *Cognitive Diagnosis Model for Disengaged Behaviors* [Paper presentation]. NCME Conference 2023, Chicago, USA.
+
+- Chen, Y., **Lugu, B.**, & Ma, W. (2023). *Applying the Item Response Tree Model to CNI Test for Individual Moral Inclination Measurement* [Paper presentation]. AERA Conference 2023, Chicago, USA.
+:::
+
+
+
+## 📘 Peer-Reviewed Journal Publications {.pub-section}
+
+::: {.pub-list}
+
+- **Lugu, B.**, Guo, W. & Ma, W. *A cognitive diagnosis model for disengaged behaviors*. Behav Res 57, 213. <https://doi.org/10.3758/s13428-025-02734-y>
+
+- **Lugu, B.**, Wind, S.A. (2025). *A multigroup invariance analysis of the association between information, communication and technology engagement on students’ reading achievement in public and private schools in the United States*. Current Psychology 44, 16552–16564. <https://doi.org/10.1007/s12144-025-08236-6>
+
+- Chen, Y., **Lugu, B.**, Ma, W., & Han, H. (2024). *Scoring Individual Moral Inclination for the CNI Test.* Stats, 7(3), 894–905. <https://doi.org/10.3390/stats7030054>
+
+- Wind, S. A., **Lugu, B.**, & Wang, Y. (2025). *Combining Mokken Scale Analysis and Rasch Measurement Theory to Explore Differences in Measurement Quality Between Subgroups.* International Journal of Testing, 1–31. <https://doi.org/10.1080/15305058.2024.2383876>
+
+- Cao, C., **Lugu, B.**, & Li, J. (2024). *The Sensitivity of Bayesian Fit Indices to Structural Misspecification in Structural Equation Modeling.* Structural Equation Modeling, 31(3), 477–493. <https://doi.org/10.1080/10705511.2023.2253497>
+
+- Ekow Arkorful, V., Kweku **Lugu, B.**, Shuliang, Z., & Charway, S. M. (2024). *Investigating COVID-19 Vaccine Uptake Intention…* Health Communication, 39(5), 998–1011. <https://doi.org/10.1080/10410236.2023.2201730>
+
+- Wind, S. A., & **Lugu, B.** (2024). *Combining Nonparametric and Parametric Item Response Theory to Explore Data Quality.* Applied Measurement in Education, 37(2), 109–131. <https://doi.org/10.1080/08957347.2024.2345592>
+
+- Wind, S. A., **Lugu, B.**, & Wang, Y. (2024). *A Sequential Mokken Scaling Approach to Evaluate Response Quality in Survey Research.* Behavior Research Methods, 56(3), 2273–2291. <https://doi.org/10.3758/s13428-023-02147-9>
+
+- Decker, E. N., & **Lugu, B.** (2024). *Black Religious Engagement and Post-College Educational Pathways.* Innovative Higher Education, 1–19. <https://doi.org/10.1007/s10755-024-09698-5>
+
+- Basiru, I., Liu, G., Arkorful, V. E., **Lugu, B. K.**, et al. (2024). *Indigenous Perceptions of Factors Influencing Behavioral Intentions Towards Climate Change Mitigation.* International Journal of Public Administration, 47(1), 1–13. <https://doi.org/10.1080/01900692.2022.2078838>
+
+- Arkorful, V. E., & **Lugu, B. K.** (2023). *Understanding Rate Evasion Behavior in Local Governance.* Public Organization Review, 23(3), 1035–1054. <https://doi.org/10.1007/s11115-021-00561-1>
+
+- Arkorful, V. E., Shuliang, Z., & **Lugu, B. K.** (2023). *Investigating Household Waste Separation Behavior…* Journal of Environmental Planning and Management, 66(10), 2195–2221. <https://doi.org/10.1080/09640568.2022.2063112>
+
+- Rufai, O. H., Chu, J., Sayibu, M., Shahani, R., Amosun, T. S., **Lugu, B. K.**, et al. (2023). *Why Should I Vaccinate?* Health Policy and Technology, 12(2), 100749. <https://doi.org/10.1016/j.hlpt.2023.100749>
+
+- Arkorful, V. E., **Lugu, B. K.**, & Shuliang, Z. (2023). *Predicting Health Insurance Policy Subscription Intention.* Social Work in Public Health, 38(4), 281–297. <https://doi.org/10.1080/19371918.2022.2135662>
+
+- Arkorful, V. E., **Lugu, B. K.**, Hammond, A., et al. (2023). *Health Insurance and the Probable Left-Out.* In Global Encyclopedia of Public Administration, Public Policy, and Governance. Springer. <https://doi.org/10.1007/978-3-319-31816-5_4269-1>
+
+- Arkorful, V. E., & **Lugu, B. K.** (2023). *Political Party “Footsoldierism” and “Vigilantism”.* In Global Encyclopedia of Public Administration, Public Policy, and Governance. Springer. <https://doi.org/10.1007/978-3-319-31816-5_4275-1>
+
+- Arkorful, V. E., **Lugu, B. K.**, Charway, S. M., & Arkorful, V. A. (2023). *SARSCOV-19 Amidst Corruption…* Journal of Public Affairs, 23(1), e2825. <https://doi.org/10.1002/pa.2825>
+
+- Arkorful, V. E., **Lugu, B. K.**, Tetteh, E., & Arkorful, V. A. (2022). *Voters’ Voting Intention…* Journal of Public Affairs, 22, e2803. <https://doi.org/10.1002/pa.2803>
+
+- Arkorful, V. E., & **Lugu, B. K.** (2022). *Voters’ Behavior…* Public Organization Review, 22(4), 1025–1044. <https://doi.org/10.1007/s11115-021-00557-x>
+
+- Bondzie-Micah, V., Qigui, S., **Lugu, B. K.**, et al. (2022). *Predicting Consumer Intention to Use Electronic Health Service.* Journal of Public Affairs, 22(4), e2677. <https://doi.org/10.1002/pa.2677>
+
+- Arkorful, V. E., **Lugu, B. K.**, Basiru, I., et al. (2022). *Voter’s Choice of a Presidential Candidate.* Journal of Public Affairs, 22(3), e2576. <https://doi.org/10.1002/pa.2576>
+
+- Arkorful, V. E., **Lugu, B. K.**, Arkorful, V. A., & Charway, S. M. (2022). *Probing the Predictors of Fraud…* Forum for Development Studies, 49(2), 291–318. <https://doi.org/10.1080/08039410.2022.2080759>
+
+- Arkorful, V. E., Hammond, A., **Lugu, B. K.**, et al. (2022). *Investigating the Intention to Use Technology Among Medical Students.* Journal of Public Affairs, 22(2), e2460. <https://doi.org/10.1002/pa.2460>
+
+- Arkorful, V. E., Shuliang, Z., **Lugu, B. K.**, & Jianxun, C. (2022). *Consumers’ Mobile Health Adoption Intention Prediction…* ACM SIGMIS Database, 53(2), 96–114. <https://doi.org/10.1145/3533692.3533699>
+
+- Arkorful, V. E., **Lugu, B. K.**, Hammond, A., et al. (2021). *Therapeutic Communication Barriers Among Nurses and Patients.* International Journal of Public Administration, 44(6), 500–512. <https://doi.org/10.1080/01900692.2020.1729797>
+
+- Lukman, S., Bao, P. X., **Lugu, B. K.**, et al. (2021). *Diasporan Students’ Social Entrepreneurship Intention.* Journal of Public Affairs, 21(1), e2108. <https://doi.org/10.1002/pa.2108>
+
+- Kwade, P. C., **Lugu, B. K.**, Lukman, S., et al. (2019). *Farmers' Attitude Toward Genetically Modified Crop Technology.* AIMS Agriculture & Food, 4(4). <https://doi.org/10.3934/agrfood.2019.4.833>
+
+:::

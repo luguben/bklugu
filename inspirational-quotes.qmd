@@ -1,0 +1,23 @@
+---
+title: "Inspirational Quotes"
+page-layout: full
+
+listing:
+  contents:
+    - data/inspirational-quotes.yml   # our YAML file above
+  type: grid            # grid = cards
+  grid-columns: 3       # 3 cards per row (auto wraps on small screens)
+  grid-item-border: true
+  grid-item-align: left
+  sort: false           # keep the order from the YAML file
+
+  # search bar (typeahead filter on the listing)
+  filter-ui: [title, author, categories]
+
+  # show categories in the sidebar
+  categories: cloud     # or: true, numbered, unnumbered
+---
+
+
+
+Below are wonderful quotes that inspires me in ways unimagible. Some were curated from my reading journals while others were obtained from internet searches. You are welcome to enjoy these amazing quotes. [Shoot me a message](mailto:blugu@uark.edu) if there is any quote that is not credited to the right author!

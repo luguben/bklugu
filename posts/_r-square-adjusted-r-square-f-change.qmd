@@ -1,0 +1,356 @@
+---
+title: "R, R Square, Adjusted R Square, R Square Change, and F Change in Regression Analysis"
+date: 2020-03-02
+image: ../images/r2-adj-r2-f2.png
+image-alt: model summaries in regression 
+
+categories: [Regression, Factor Analysis]
+description: |
+  Understand the concept of R, R Square, Adjusted R Square, R Square Change, and F Change using a straightforward regression example.
+date-modified: 2025-06-24
+---
+
+
+
+Statistical concepts often feel complex until they are explained in a simple, non-technical way supported by clear examples. In this post, we explain the meaning of **R**, **R Square**, **Adjusted R Square**, **R Square Change**, and **F Change** using a straightforward regression example.
+
+
+
+## Example Scenario
+
+A researcher examined university faculty members’ use of Wikipedia as a teaching resource. The goal was to understand how factors such as *Quality of information*, *Sharing Attitude*, and *Perceived Ease of Use* influence their **User Behaviour** toward Wikipedia.
+
+**Independent Variables (Predictors):**
+
+- Quality of information in Wikipedia  
+- Sharing attitude of faculty members  
+- Perceived ease of use of information in Wikipedia  
+
+**Dependent Variable (Outcome):**  
+
+- University faculty members’ user behaviour
+
+
+Using these variables, the researcher conducted a **multiple linear regression** in R. We will simulate data to illustrate this.
+
+COpy and run the code below to create data for practice.
+
+
+
+```{r}
+#| message: false
+#| warning: false
+#| results: hide
+
+set.seed(856103)
+
+# Simulate dataset
+
+n <- 120                                           # sample size
+Quality <- rnorm(n, mean = 4, sd = 0.6)            # quality of wikipedia info
+SharingAttitude <- rnorm(n, mean = 3.8, sd = 0.7) # sharinf attitude
+EaseOfUse <- rnorm(n, mean = 4.1, sd = 0.5)      # perceived ease of use
+
+# Use the above info to generate data for user behavior.
+UserBehaviour <- 1.5 + 0.55*Quality + 0.38*SharingAttitude + 
+                  0.15*EaseOfUse + rnorm(n, 0, 0.5)
+
+# Combine into data frame
+data <- data.frame(Quality, SharingAttitude, EaseOfUse, UserBehaviour)
+
+# Examine first few rows
+head(data)
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(kableExtra)
+kable(round(head(data),3))
+```
+
+
+## Descriptive Statistics
+
+Check descriptive statistics for each variable focusing on the minimum, maximum, mean, standard deviation.
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+library(psych)
+library(dplyr)
+
+descStats <- describe(data)
+
+# select column of interest
+descStats <- descStats %>% 
+             select(min, max, mean, sd) %>%
+             round(2)
+
+kable(descStats, 
+      caption = "Summary Statistics",
+      col.names = c("Minimum","Maximum","Mean","Standard Deviation"),
+      align = "c"
+      )
+```
+
+
+
+```{r}
+#| eval: false
+#| include: false
+
+# Export summary statistics to insert in word document.
+write.csv(descStats, file = "Summary Statistics.csv", row.names=F)
+```
+
+
+
+## Examine the correlation between the variables
+
+Correlation coefficient (R) measures the strength and direction of the relationship between the predictors and the outcome variable.  
+
+It ranges from **–1 to +1**:
+- **+1** → perfect positive relationship  
+- **–1** → perfect negative relationship  
+- **0** → no relationship
+
+
+
+```{r}
+correlation = round(cor(data),3)
+
+kable(correlation, caption = "Correlation between variables")
+```
+
+```{r}
+#| eval: false
+#| include: false
+
+# Export correlation result to insert in word document.
+write.csv(correlation, file = "Correlation between variables.csv", row.names=F)
+```
+
+
+## Fit a hierarchical regression model
+
+We can fit a hierarchical regression model to assess the contribution of each added predictors to the model.
+
+**Model 1** examines the impact of quality of Wikipedia information on user behavior.
+
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+# Model 1: Quality only
+model1 <- lm(UserBehaviour ~ Quality, data = data)
+
+summary(model1)
+```
+
+
+
+**Model 2** examines the impact of quality of Wikipedia information and Sharing attitude of faculty members on user behavior.
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+# Model 2: Add Sharing Attitude
+model2 <- lm(UserBehaviour ~ Quality + SharingAttitude, data = data)
+
+summary(model2)
+```
+
+
+
+**Model 3** examines the impact of all the predictors (Quality of information in Wikipedia, Sharing attitude of faculty members, and Perceived ease of use of information in Wikipedia) on user behavior.
+
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+# Model 3: Add Ease of Use
+model3 <- lm(UserBehaviour ~ Quality + SharingAttitude + EaseOfUse, data = data)
+
+summary(model3)
+```
+
+Summarize the three models.
+
+1. Use ANOVA table to examine F change and p-value for model comparison.
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+# ANOVA table gives F change and p-values for model comparison
+
+anova_results <- anova(model1, model2, model3)
+anova_results
+
+```
+
+
+2. Extract R-square and adjusted R-square for each model. We can find the correlation between the predictor(s) and the outcome by taking the $\sqrt{ }$ of the $R^2$.
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+# Extract R-square values
+r2_model1 <- summary(model1)$r.squared
+r2_model2 <- summary(model2)$r.squared
+r2_model3 <- summary(model3)$r.squared
+
+
+# Calculate the correlation associated with each model
+r_model1 <- sqrt(r2_model1)
+r_model2 <- sqrt(r2_model2)
+r_model3 <- sqrt(r2_model3)
+
+
+# Extract Adj. R-squared values
+adjr2_model1 <- summary(model1)$adj.r.squared
+adjr2_model2 <- summary(model2)$adj.r.squared
+adjr2_model3 <- summary(model3)$adj.r.squared
+```
+
+
+
+3. Calculate R-square change for successive models
+
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+r2_change_model12 <- r2_model2 - r2_model1
+r2_change_model12
+
+r2_change_model23 <- r2_model3 - r2_model2
+r2_change_model23
+```
+
+
+
+4. Combine results to generate summary table for regression model (SPSS-style)
+
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+comparison_table <- data.frame(
+    Model = c("Model 1", "Model 2", "Model 3"),                       # Model name
+        R = c(r_model1, r_model2, r_model3),                          # Correlation coefficient (R)
+       R2 = c(r2_model1, r2_model2, r2_model3),                       # R-squared values
+   Adj_R2 = c(adjr2_model1, adjr2_model2, adjr2_model3),              # Adjusted R-squared
+R2_Change = c(NA, r2_change_model12, r2_change_model23),              # R-squared change
+F_Change = c(NA, anova_results$`F`[2], anova_results$`F`[3]),         # F-change
+p_value = c(NA, anova_results$`Pr(>F)`[2], anova_results$`Pr(>F)`[3]) # P value for F-change
+ )
+
+kable(comparison_table, 
+       digits = 3, 
+       caption = "Model Summary")
+
+```
+
+
+---
+
+## R (Correlation Coefficient)
+
+**R** represents the **correlation coefficient**, which measures the strength and direction of the relationship between the predictors and the outcome variable.  
+It ranges from **–1 to +1**:
+- **+1** → perfect positive relationship  
+- **–1** → perfect negative relationship  
+- **0** → no relationship
+
+In simple terms, the closer R is to –1 or +1, the stronger the relationship between variables.  
+R is sometimes converted to a percentage for easier interpretation.
+
+From Table 1:
+- **Model 1:** Quality of information is positively related to User Behaviour (R = .520), meaning about **34.6% shared variance**.  
+- **Model 2:** Adding Sharing Attitude increases the relationship to about **37.4%**.  
+- **Model 3:** Including Perceived Ease of Use raises it slightly to **41.9%**.
+
+---
+
+## R Square (Coefficient of Determination)
+
+**R Square** explains **how much variation in the dependent variable** can be accounted for by the independent variables.  
+It ranges from 0 to 1 but is usually expressed as a percentage.
+
+It is computed by squaring R:
+
+> If R = .520 → \( R^2 = .520^2 = .270 \)  
+> If R = .525 → \( R^2 = .525^2 = .276 \)
+
+**Interpretation:**
+- **Model 1:** About **27.0%** of the variation in User Behaviour is explained by Quality of information.  
+- **Model 2:** About **27.6%** of the variation is explained by both Quality and Sharing Attitude.  
+- **Model 3:** Adding Perceived Ease of Use did not change R Square, suggesting it added no predictive value.
+
+In behavioural research, a 25–30% explained variation is acceptable, as human behaviour is influenced by many uncontrollable factors.
+
+---
+
+## Adjusted R Square
+
+Since R Square always increases when new predictors are added, **Adjusted R Square** compensates for the number of variables in the model.  
+It increases **only when** the new variable genuinely improves model prediction.
+
+In our example:
+- Each variable except *Perceived Ease of Use* improved the model slightly.  
+- Adjusted R Square increased from Model 1 to Model 2 but remained stable in Model 3.
+
+Thus, about **27.6%** of the variation in User Behaviour can be attributed to *Quality* and *Sharing Attitude*.
+
+---
+
+## R Square Change
+
+In **hierarchical regression**, we often add variables in blocks to see how much each new predictor contributes to explaining the dependent variable.  
+This is shown by **R Square Change**.
+
+For example:
+- When *Sharing Attitude* was added in Model 2, R Square increased from .270 to .276.  
+- The **R Square Change of .006** means *Sharing Attitude* explained an additional **0.6%** of the variation in User Behaviour.
+
+---
+
+## F Change
+
+**F Change** tests whether the increase in R Square after adding a new variable is **statistically significant**.  
+A significant F Change means the variable *meaningfully improves* the model.
+
+From the example:
+- *Sharing Attitude* (Model 2) significantly improved prediction (\( p = .007 \)).  
+- *Perceived Ease of Use* (Model 3) did not (\( p = .599 > .05 \)).
+
+Hence, only *Sharing Attitude* contributed significantly to predicting User Behaviour toward Wikipedia.
+
+---
+
+## Summary
+
+By interpreting **R**, **R Square**, **Adjusted R Square**, **R Square Change**, and **F Change**, researchers can better understand how each predictor contributes to explaining an outcome variable.  
+These statistics help determine which factors truly matter in predicting human behaviour.
+
+
+
+

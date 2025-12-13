@@ -1,0 +1,40 @@
+---
+title: "Combining Mokken Scale Analysis with Rasch Measurement Theory to Explore Differences in Measurement Quality Between Subgroups"
+date: 08/16/2024  # MM/DD/YYYY  update this to the actual publication date if different
+
+image: ../images/msa-subgroup.png
+
+author:
+  - name: Stefanie A. Wind
+    url: https://professorwind.science/
+    affiliation: The University of Alabama
+    affiliation-url: https://ua.edu
+
+  - name: Benjamin Lugu
+    url: https://benjaminlugu.com
+    affiliation: University of Arkansas
+    affiliation-url: https://uark.edu
+
+  - name: Yurou Wang
+    url: https://sites.ua.edu/yurouwang/about-dr-yurou-wang/
+    affiliation: The University of Alabama
+    affiliation-url: https://ua.edu
+
+citation:
+  type: article-journal
+  container-title: "International Journal of Testing"
+  volume: "25"
+  issue: "1"
+  page: "25–49"
+  doi: 10.1080/15305058.2024.2383876
+  url: https://www.tandfonline.com/doi/abs/10.1080/15305058.2024.2383876
+
+appendix-cite-as: bibtex
+
+categories: [Mokken Scale Analysis, Article]
+reading-time: true
+---
+
+
+
+Mokken Scale Analysis (MSA) is a nonparametric approach that offers exploratory tools for understanding the nature of item responses while emphasizing invariance requirements. MSA is often discussed as it relates to Rasch measurement theory, which also emphasizes invariance, but uses parametric models. Researchers who have compared and combined MSA and Rasch approaches have generally concluded that these approaches offer complementary perspectives. However, researchers have not considered how the two approaches may provide insight related to examinee subgroups. Using a simulation and illustrative real data analysis, we propose an exploratory approach to integrating MSA and Rasch techniques to understand item fit as it relates to differences in item characteristics between examinee subgroups. Our results suggest that integrating complete-sample and subgroup-level MSA and Rasch model item fit analyses can provide insight into differences in item quality between subgroups. In some cases, misfit at the complete sample level corresponds to subgroup-related differences. On the other hand, fit at the complete sample level does not guarantee consistent measurement properties within subgroups. When subgroups are important for scale interpretation and use, our results suggest that conducting separate analyses within groups and considering their results with respect to those from the full sample may lend useful insight.

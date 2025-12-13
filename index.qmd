@@ -1,0 +1,187 @@
+---
+title: "Benjamin Lugu, PhD"
+description: |
+  Teaching Assistant Professor<br>
+  College of Education and Health Professions<br>
+  Department of Educational Statistics and Research Methods
+toc: false
+page-layout: full
+about:
+  template: trestles
+  image: images/profile.png
+  image-alt: Benjamin Lugu
+  image-shape: round
+  id: hero-heading
+  links:
+    - icon: envelope-at
+      href: mailto:blugu@uark.edu
+      target: _blank
+      
+    - icon: download
+      href: files/cv.pdf
+      target: _blank
+            
+    - text: "{{< ai google-scholar>}}"
+      href: https://scholar.google.com/citations?user=8Fn6yF4AAAAJ  
+      target: _blank
+      
+    - text: "{{< ai researchgate>}}"
+      href: https://www.researchgate.net/profile/Benjamin-Lugu-2
+      target: _blank
+
+    - icon: linkedin
+      href: https://www.linkedin.com/in/benjamin-lugu-065771140/
+      target: _blank
+            
+    - icon: youtube
+      href: https://www.youtube.com/channel/UCRVIKiOEXprg5SSifTvBU5w    
+      target: _blank
+
+listing:
+  id: recent-posts
+  contents: posts
+  sort: "date desc"
+  max-items: 3
+  type: grid
+  categories: false
+---
+
+
+<div id="particles-js"></div>
+
+
+
+
+:::{#hero-heading}
+
+I am a Teaching Assistant Professor of Educational Statistics and Research Methods at the University of Arkansas. My teaching and research focus on quantitative methods, data analytics, and applied statistical modeling in education and health contexts. I am passionate about helping graduate students develop strong analytical reasoning skills using R, SPSS, and SAS. My work integrates traditional research design with modern data science approaches to support evidence-based decision-making in education and healthcare.
+
+
+## Research Interests
+
+- Quantitative Methods
+- Research Design
+- Educational Statistics and Measurement  
+- Applied Structural Equation Modeling
+- Diagnostic Classification Modeling
+- Healthcare Data Analytics
+
+:::
+
+
+
+<!-- Statistical Insights (Side-by-Side Two Quotes) -->
+<div class="quote-grid">
+  <div class="stats-card" id="stats-quote-1">Loading...</div>
+  <div class="stats-card" id="stats-quote-2">Loading...</div>
+</div>
+
+
+
+<script>
+(function() {
+
+  // Helper: pick random element
+  function pickRandom(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  // Load and refresh quotes
+  function loadQuotes() {
+
+    // ----- Load STATISTICAL QUOTE -----
+    fetch("data/statistical.json")
+      .then(response => response.json())
+      .then(statsQuotes => {
+        const s = pickRandom(statsQuotes);
+        const el1 = document.getElementById("stats-quote-1");
+
+        if (el1 && s && s.title) {
+          el1.innerHTML = `
+            <strong style="color:#444; font-size:0.9rem;">📊 Stats Insight</strong>
+            <div class="quote-text">${s.title}</div>
+          `;
+        }
+      })
+      .catch(err => {
+        console.error("Stats Insight Error:", err);
+        document.getElementById("stats-quote-1").innerText =
+          "(Error loading statistics quote)";
+      });
+
+
+    // ----- Load INSPIRATIONAL QUOTE -----
+    fetch("data/inspirational.json")
+      .then(response => response.json())
+      .then(inspQuotes => {
+        const i = pickRandom(inspQuotes);
+        const el2 = document.getElementById("stats-quote-2");
+
+        if (el2 && i && i.title) {
+          el2.innerHTML = `
+            <strong style="color:#444; font-size:0.9rem;">✨ Inspirational Insight</strong>
+            <div class="quote-text">${i.title}</div>
+            <div class="quote-author" style="margin-top:0.4rem; color:#666; font-size:0.85rem;">
+              — ${i.author}
+            </div>
+          `;
+        }
+      })
+      .catch(err => {
+        console.error("Inspirational Insight Error:", err);
+        document.getElementById("stats-quote-2").innerText =
+          "(Error loading inspirational quote)";
+      });
+  }
+
+  // Load first quotes immediately
+  loadQuotes();
+
+  // Refresh quotes every 30 seconds (change as needed)
+  setInterval(loadQuotes, 30000);  // 20,000 ms = 20 seconds
+
+})();
+</script>
+
+
+
+
+
+## Recent Posts
+*Selected highlights from my teaching, research, and analytics blog.*
+
+:::{#recent-posts}
+:::
+
+<div class="see-all-posts">
+  <a href="blog.qmd">View all posts →</a>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+particlesJS('particles-js', {
+  "particles": {
+    "number": { "value": 40, "density": { "enable": true, "value_area": 800 } },
+    "color": { "value": "#0056b3" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.3 },
+    "size": { "value": 3, "random": true },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#0056b3",
+      "opacity": 0.2,
+      "width": 1
+    },
+    "move": { "enable": true, "speed": 1.5, "direction": "none", "out_mode": "bounce" }
+  },
+  "interactivity": {
+    "events": { "onhover": { "enable": true, "mode": "repulse" } },
+    "modes": { "repulse": { "distance": 100, "duration": 0.4 } }
+  },
+  "retina_detect": true
+});
+</script>

@@ -1,0 +1,40 @@
+---
+title: "The Sensitivity of Bayesian Fit Indices to Structural Misspecification in Structural Equation Modeling"
+date: 10/12/2023  # MM/DD/YYYY  update this to the actual publication date if different
+
+image: ../images/bayesian-fit-indices-misspecification.png
+
+author:
+  - name: Chunhua Cao
+    url: https://education.ua.edu/directory/chunhua-cao/
+    affiliation: The University of Alabama
+    affiliation-url: https://ua.edu
+
+  - name: Benjamin Lugu
+    url: https://benjaminlugu.com
+    affiliation: University of Arkansas
+    affiliation-url: https://uark.edu
+
+  - name: Jujia Li
+    url: https://orcid.org/0009-0001-7982-5122
+    affiliation: The University of Alabama
+    affiliation-url: https://ua.edu
+
+citation:
+  type: article-journal
+  container-title: "Structural Equation Modeling: A Multidisciplinary Journal"
+  volume: "31"
+  issue: "3"
+  page: "477-493"
+  doi: 10.1080/10705511.2023.2253497
+  url: https://www.tandfonline.com/doi/full/10.1080/10705511.2023.2253497
+
+appendix-cite-as: bibtex
+
+categories: [Structural Equation Modeling, Article]
+reading-time: true
+---
+
+
+
+This study examined the false positive (FP) rates and sensitivity of Bayesian fit indices to structural misspecification in Bayesian structural equation modeling. The impact of measurement quality, sample size, model size, the magnitude of misspecified path effect, and the choice or prior on the performance of the fit indices was also investigated. The Bayesian fit indices examined in this study included PPP, DIC, BRMSEA, BCFI, BTLI. The results from the simulation study showed that BRMSEA, BCFI, and BTLI failed to detect structural misspecification. The performance of DIC depended majorly on measurement quality, and the sensitivity of PPP depended on sample size, measurement quality, the magnitude of the omitted path effect, and the choice of prior. Informative prior with too narrow precisions resulted in higher FP rates. Empirical implications for applied researchers and future research directions were discussed.

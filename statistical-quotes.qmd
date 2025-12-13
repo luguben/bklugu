@@ -1,0 +1,23 @@
+---
+title: "Statistical Quotes"
+page-layout: full
+
+listing:
+  contents:
+    - data/statistical-quotes.yml   # our YAML file above
+  type: grid            # grid = cards
+  grid-columns: 3       # 3 cards per row (auto wraps on small screens)
+  grid-item-border: true
+  grid-item-align: left
+  sort: true           # Do not keep the order from the YAML file
+  
+  # search bar (typeahead filter on the listing)
+  filter-ui: [title, author, categories]
+
+  # show categories in the sidebar
+  categories: cloud     # or: true, numbered, unnumbered
+---
+
+
+
+Below are insightful statistical quotes that shape my thinking about data, measurement, and scientific inquiry. Some are curated from my research notes, while others come from reputable sources across the field. Enjoy exploring these ideas, and feel free to reach out if any quote needs updated attribution.

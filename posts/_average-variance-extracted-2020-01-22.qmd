@@ -1,0 +1,34 @@
+---
+title: "Average Variance Extracted (AVE)"
+date: 2020-01-22
+image: ../images/ave-2020-01-22.png
+categories: [Regression, Factor Analysis]
+description: "A concise guide to understanding and interpreting **Average Variance Extracted (AVE)** as a measure of convergent validity in factor analysis."
+---
+
+
+
+
+# Average Variance Extracted (AVE)
+
+
+![](../images/ave-2020-01-22.png){width="600" style="border-radius:10px;"}
+
+
+
+When a researcher calculates the **Average Variance Extracted (AVE)** for a construct (latent variable), they are assessing the proportion of variance in the observed items that is explained by the underlying latent variable.  
+
+**For example:** In the table below, *Perceived Quality of Information in Wikipedia (Qu)* was measured using four items, and its AVE is 0.658. This means that, on average, 65.8% of the variance in these items is explained by the latent construct. The remaining 34.2% represents measurement error or unexplained variance, which is generally acceptable.  
+
+| Construct                   | Average Variance Extracted |
+| --------------------------- | -------------------------- |
+| Quality (Qu)                | 0.658                      |
+| Use Behavior (Use)          | 0.648                      |
+| Incentive (Inc)             | 0.668                      |
+| Sharing Attitude (SA)       | 0.745                      |
+| Perceived Ease of Use (PEU) | 0.512                      |
+
+As a rule of thumb, for adequate convergent validity, an AVE of 0.50 or higher is recommended.  An AVE value below 0.50 indicates that more variance in the items is due to measurement error than is accounted for by the construct.
+
+
+

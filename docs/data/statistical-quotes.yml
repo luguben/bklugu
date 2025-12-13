@@ -1,0 +1,100 @@
+
+- title: "A t-test evaluates whether the difference between two means is larger than what random variation alone would produce."
+  categories: ["T-test"]
+
+- title: "There are three major types of t-tests: one-sample, independent samples, and paired samples."
+  categories: ["T-test"]
+
+- title: "A one-sample t-test compares a sample mean against a known or hypothesized population mean."
+  categories: ["T-test"]
+
+- title: "An independent samples t-test compares the means of two independent groups."
+  categories: ["T-test"]
+
+- title: "A paired samples t-test compares the mean difference within the same individuals across two time points or conditions."
+  categories: ["T-test"]
+
+- title: "The independence of observations is one of the most critical assumptions of all t-tests."
+  categories: ["T-test", "Assumptions"]
+
+- title: "T-tests assume the dependent variable is continuous and approximately normally distributed within each group."
+  categories: ["T-test", "Assumptions"]
+
+- title: "The independent t-test assumes equal variances across groups; if violated, use Welch’s t-test."
+  categories: ["T-test", "Assumptions"]
+
+- title: "A significant t-test indicates evidence of a mean difference, not the magnitude or importance of that difference."
+  categories: ["T-test", "Interpretation"]
+
+- title: "Effect sizes such as Cohen’s d, Hedges’ g, and Glass’s Δ provide insight into the practical importance of a t-test result beyond statistical significance."
+  categories: ["T-test", "Effect Size"]
+  
+- title: "Always report effect size with a t-test; statistical significance alone does not describe the practical impact."
+  categories: ["T-test", "Effect Size"]
+
+- title: "In t-test, Cohen’s d measures how large the mean difference is in standardized units."
+  categories: ["T-test", "Effect Size"]
+
+- title: "Confidence intervals surrounding the mean difference offer a clearer picture of the precision of your estimate."
+  categories: ["T-test", "Confidence Interval"]
+
+- title: "A non-significant t-test does not prove that two groups are the same. It simply shows that the evidence is insufficient."
+  categories: ["T-test", "Interpretation"]
+
+- title: "Larger sample sizes make t-tests more sensitive to detecting small but consistent differences."
+  categories: ["T-test"]
+
+- title: "Before running a t-test, visualize the data; plots can reveal group differences or assumption violations not visible in the numbers."
+  categories: ["T-test", "Data Visualization"]
+
+- title: "Report t-statistic, degrees of freedom, p-value, mean difference, and effect size for transparent communication."
+  categories: ["T-test", "Reporting"]
+
+- title: "The robustness of t-tests increases with balanced group sizes and minimal outliers."
+  categories: ["T-test"]
+
+
+- title: "Cohen’s d expresses the mean difference between two groups in standard deviation units, making the effect easy to interpret across studies."
+  categories: ["T-test", "Effect Size"]
+
+- title: "Hedges’ g is a small-sample correction of Cohen’s d, providing a more accurate effect size when sample sizes are small or unequal."
+  categories: ["T-test", "Effect Size"]
+
+- title: "Glass’s Δ uses only the standard deviation of the control group, making it useful when the two groups have very different variances."
+  categories: ["T-test", "Effect Size"]
+
+
+
+
+
+
+
+# - title: "T-test is a statistical method used to compare the means of two groups or the difference between one group's mean and a standard value."
+#   categories: ["T-test"]
+# 
+# - title: "The common types of t-test are: one sample t-test, independent sample t-test, and paired t-test "
+#   categories: ["T-test"]
+# 
+# - title: "One sample t-test is used to compare the mean of a single sample against a known population mean."
+#   categories: ["T-test"]
+# 
+# - title: "Independent sample t-test is useful when you want to determine the differences between the means of two independent groups."
+#   categories: ["T-test"]
+# 
+# - title: "Paired sample t-test is used to determine the difference in the means of a sample over time. It can be used to determining whether students performances improved before  and after administering an intervention"
+#   categories: ["T-test"]
+# 
+# - title: "Assumption of one sample t-test: independent observations, dependent variable should be normally distributed and continuous, no outlier."
+#   categories: ["T-test"]
+# 
+# - title: "Assumption of independent sample t-test: categorical independent variable (two levels only), continuous dependent variable, independent observations, each group should be normally distributed, variance between groups should be equal, no outliers."
+#   categories: ["T-test"]
+# 
+# - title: "Outliers are unusual points that deserve investigation, not immediate removal."
+#   categories: ["Outliers", "Data Quality"]
+# 
+# - title: "Overfitting is when a model memorizes noise instead of learning patterns."
+#   categories: ["Modeling", "Prediction"]
+# 
+# - title: "Missing data are rarely missing at random — they often hide a pattern."
+#   categories: ["Missing Data", "Data Quality"]

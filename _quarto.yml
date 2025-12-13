@@ -1,0 +1,66 @@
+project:
+  type: website
+  resources: 
+    - data/**
+  output-dir: docs
+
+website:
+  favicon: favicon.ico
+  title: "Dr Benjamin Lugu"
+  page-navigation: true
+  navbar:
+    left:
+      - text: "🏠 Home"
+        href: index.qmd
+
+      - text: "🎓 Teaching"
+        href: teaching.qmd
+
+      - text: "📚 Publications"
+        href: publications.qmd
+
+      # - text: "📂 Learning Library"
+      #   menu:
+      #     - text: "📖 Reading Hub"
+      #       href: reading-hub.qmd
+      #     - text: "✨ Inspirational Quotes"
+      #       href: inspirational-quotes.qmd
+      #     - text: "📊 Statistical Quotes"
+      #       href: statistical-quotes.qmd
+
+      - text: "📝 Blog"
+        href: blog.qmd
+
+   
+    # right:
+    #   - text: "{{<ai google-scholar>}}"
+    #     href: https://scholar.google.com/citations?user=8Fn6yF4AAAAJ
+    #   - text: "{{<ai researchgate>}}"
+    #     href: https://www.researchgate.net/profile/Benjamin-Lugu-2
+    #   - text: "{{<ai cv>}}"
+    #     href: cv.pdf
+
+  page-footer: 
+    left: "[Benjamin Lugu](http://www.benjaminlugu.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: "Built with [Quarto](https://quarto.org)"
+    right:  
+      - text: "{{<ai google-scholar>}}"
+        href: https://scholar.google.com/citations?user=8Fn6yF4AAAAJ
+        target: _blank
+      - text: "{{<ai researchgate>}}"
+        href: https://www.researchgate.net/profile/Benjamin-Lugu-2
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/benjamin-lugu-065771140/
+        target: _blank   
+
+
+
+format:
+  html:
+    theme: flatly
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css">
+    css: styles.css
+    toc: true

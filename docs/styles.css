@@ -1,0 +1,490 @@
+/* =========================================================
+   SITE-WIDE STYLING — Benjamin Lugu, PhD Website
+   ========================================================= */
+
+/* BRAND COLORS */
+:root {
+  --navy: #3C82C8;
+  --gold: #F1C40F;
+  --light-gray: #e5e5e5;
+}
+
+
+/* =========================================================
+   NAVBAR – RESTORE ORIGINAL LIGHT STYLE
+   ========================================================= */
+.navbar {
+  background-color: #f8f9fa !important;     /* original white navbar */
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* Dark text (original), NOT white */
+.navbar a.nav-link,
+.navbar-brand {
+  color: #333333 !important;                /* normal readable text */
+  font-weight: 500;
+}
+
+.navbar a.nav-link:hover,
+.navbar-brand:hover {
+  color: var(--navy) !important;            /* subtle hover color */
+}
+
+
+
+body {
+  padding-top: 85px !important;
+}
+
+
+
+
+
+
+/* Lighten dropdown menu hover */
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f2f6fa !important;  /* soft light blue */
+  color: var(--navy) !important;
+}
+
+/* Lighten active item (first highlighted item) */
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #e8f1fb !important;  /* MUCH lighter */
+  color: var(--navy) !important;
+}
+
+
+
+/* =========================================================
+   ABOUT / HERO SECTION
+   ========================================================= */
+.quarto-about-trestles {
+  margin-bottom: 3rem !important;
+}
+
+.quarto-about-trestles .about-title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--navy);
+}
+
+.quarto-about-trestles .about-subtitle {
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: #555;
+}
+
+#hero-heading {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 2rem !important;
+}
+
+#hero-heading h2 {
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+  color: var(--navy);
+}
+
+#hero-heading::after {
+  content: "";
+  display: block;
+  height: 35px;
+  background: #fff;
+  margin-top: 2rem;
+}
+
+.about-summary {
+  background: linear-gradient(to bottom right, #fafafa, #ffffff);
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  border-radius: 12px;
+}
+
+.about-image img {
+  border-radius: 100% !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================================================
+   PARTICLE BACKGROUND
+   ========================================================= */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px !important;
+  z-index: -1;
+  background-color: #ffffff;
+  opacity: 0.7;
+  overflow: hidden !important;
+}
+
+/* =========================================================
+   QUOTE ROTATION + CARDS
+   ========================================================= */
+#stats-insights-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats-card {
+  background: #ffffff;
+  padding: 1.2rem;
+  border-radius: 12px;
+  border: 1px solid var(--light-gray);
+  box-shadow: 0 2px 5px rgba(10,49,97,0.12);
+  transition: 0.2s ease-in-out;
+}
+
+.stats-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(10,49,97,0.20);
+}
+
+/* UPDATED BRAND STRIPS */
+#stats-quote-1 { border-left: 6px solid var(--navy); }
+#stats-quote-2 { border-left: 6px solid var(--gold); }
+
+.quote-text, .quote-author {
+  opacity: 0;
+  animation: fadein 0.8s forwards;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+/* Make publication card titles gold */
+.quarto-listing-container-grid .card-title,
+.quarto-grid-item.card .card-title {
+  color: var(--navy) !important;
+  font-weight: 450 !important;
+}
+
+
+
+/* =========================================================
+   DAILY INSIGHT BANNER
+   ========================================================= */
+#daily-insight-banner {
+  background: #eef6ff;
+  border-left: 4px solid var(--navy);
+  padding: 0.8rem 1rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  color: #333;
+  border-radius: 6px;
+}
+
+/* =========================================================
+   BLOG POST GRID
+   ========================================================= */
+
+section.listing-block {
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Section heading for the listing block */
+h2.listing-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--navy);
+  margin: 1rem 0 1.5rem;
+  border-bottom: 2px solid var(--gold);
+  display: inline-block;
+  padding-bottom: 0.4rem;
+}
+
+/* Blog post cards */
+.quarto-grid-item {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 2px 8px rgba(10,49,97,0.15);
+  transition: transform 0.25s ease-in-out,
+              box-shadow 0.25s ease-in-out;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(10,49,97,0.28);
+}
+
+/* Card image */
+.quarto-grid-item img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+/* Card title (you want it non-bold) */
+.quarto-grid-item .card-title {
+  font-size: 0.98rem;
+  font-weight: 550 !important;   /* remove bold */
+  color: var(--navy);
+}
+
+
+
+
+/* =========================================================
+   VIEW ALL POSTS BUTTON (Updated branding)
+   ========================================================= */
+.see-all-posts a {
+  display: inline-block;
+  color: var(--navy) !important;
+  border: 1px solid var(--navy) !important;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  transition: all 0.25s ease-in-out;
+}
+
+.see-all-posts a:hover {
+  background-color: var(--navy) !important;
+  color: #fff !important;
+}
+
+/* =========================================================
+   QUOTE LISTING PAGE
+   ========================================================= */
+.quarto-listing-container-grid .quarto-grid-item.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(10,49,97,0.12);
+  padding: 0.75rem 1rem;
+  border-left: 6px solid var(--navy);
+  margin-bottom: 1.2rem;
+}
+
+
+
+/* =========================================================
+   HEADINGS
+   ========================================================= */
+h2 {
+  color: var(--navy) !important;
+  margin-top: 2rem !important;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: var(--navy) !important;
+  font-size: 1.05rem !important;
+}
+
+/* =========================================================
+   LINKS (Global)
+   ========================================================= */
+a {
+  color: var(--navy) !important;
+  text-decoration-color: var(--gold) !important;
+}
+
+a:hover {
+  color: var(--navy) !important;
+  text-decoration-thickness: 2px;
+}
+
+/* Pagination buttons (1, 2) */
+.page-link {
+  background: var(--navy) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.page-link:hover {
+  background: var(--gold) !important;
+  color: var(--navy) !important;
+}
+
+
+
+/* Restore normal text color inside listings */
+.quarto-listing-default a {
+  color: inherit !important;
+  text-decoration-color: inherit !important;
+}
+
+
+
+/* ============================================
+   PUBLICATIONS PAGE — THEMED WITH SITE COLORS
+   Colors: Navy #0A3161  |  Gold #F1C40F
+   ============================================ */
+
+/* Publication list items */
+.pub-list li {
+  list-style-type: "•  ";
+  padding-left: 0.8rem;
+  text-indent: -0.8rem;
+  margin-bottom: 0.85rem;
+  line-height: 1.55;
+  max-width: 95%;
+  color: #000 !important;      /* <-- Make main text black */
+}
+
+/* Keep bullet navy */
+.pub-list li::marker {
+  color: #0A3161 !important;
+}
+
+/* Italicized titles */
+.pub-list em {
+  font-style: italic;
+  opacity: 0.9;
+  color: #000;   /* titles also black */
+}
+
+/* Author names (your name bold) */
+.pub-list strong {
+  font-weight: 650;
+  color: #000;
+}
+
+/* Keep DOI links blue + underlined */
+.pub-list a {
+  color: var(--navy) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+}
+
+
+/* Remove uppercase text-transform applied by Quarto/Trestles theme */
+.listing-author,
+.listing-date,
+.listing-contributors,
+.listing-categories,
+.quarto-listing-default .listing-author,
+.quarto-listing-default .listing-date,
+.quarto-listing-default .listing-contributors,
+.quarto-listing-default .listing-categories {
+  text-transform: none !important;
+}
+
+
+
+
+
+/* Responsive grid for the two quote cards */
+.quote-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Style for each quote card */
+.stats-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-left: 6px solid #0A3161; /* navy default for first one */
+}
+
+/* Make second card use gold border */
+#stats-quote-2 {
+  border-left-color: #F1C40F;
+}
+
+.quote-text {
+  margin-top: 0.4rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.quote-author {
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+
+
+/* ============================================================
+   FORCE HORIZONTAL ICON ROW ON MOBILE
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .quarto-about-trestles .about-links {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 0.75rem !important;   /* spacing between buttons */
+  }
+}
+
+
+
+
+
+
+
+
+.quarto-grid-item .thumbnail img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.quarto-grid-item .card-body {
+  padding-top: 0.8rem;
+}
+
+
+.quarto-grid-item .card-text:last-child {
+  color: #666;
+  font-size: 0.85rem;
+  margin-top: 0.8rem;
+}
+
+
+.quarto-grid-item .card:hover {
+  transform: translateY(-4px);
+  transition: 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.quarto-grid-item .card {
+  border-left: 0 !important;
+}
+
+.quarto-grid {
+  gap: 1.2rem !important;
+}
+
+
+
+
+
+

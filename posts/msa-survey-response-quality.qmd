@@ -1,0 +1,38 @@
+---
+title: "A sequential Moken scaling approach to evaluate response quality in survey research"
+date: 06/13/2023  # MM/DD/YYYY  update this to the actual publication date if different
+
+image: ../images/msa-survey-response-quality.png
+
+author:
+  - name: Stefanie A. Wind
+    url: https://professorwind.science/
+    affiliation: The University of Alabama
+    affiliation-url: https://ua.edu
+
+  - name: Benjamin Lugu
+    url: https://benjaminlugu.com
+    affiliation: University of Arkansas
+    affiliation-url: https://uark.edu
+
+  - name: Yurou Wang
+    url: https://sites.ua.edu/yurouwang/about-dr-yurou-wang/
+    affiliation: The University of Alabama
+    affiliation-url: https://ua.edu
+
+citation:
+  type: article-journal
+  container-title: "Behavior Research Methods"
+  volume: "56"
+  page: "2273-2291"
+  doi: 10.3758/s13428-023-02147-9
+  url: https://link.springer.com/article/10.3758/s13428-023-02147-9
+
+appendix-cite-as: bibtex
+
+categories: [Mokken Scale Analysis, Survey Research, Article]
+reading-time: true
+---
+
+
+Careless responding, where participants do not fully engage with item content, is pervasive in survey research. Left undetected, carelessness can compromise the interpretation and use of survey results, including information about participant locations on the construct, item difficulty, and the psychometric quality of the instrument. We present and illustrate a sequential procedure for evaluating response quality in survey research using indicators from Mokken scale analysis (MSA). We use a real data illustration and a simulation study to compare a sequential procedure to a standalone procedure. We also consider how identifying and removing responses with evidence of poor measurement properties affects item quality indicators. Results suggest that the sequential procedure was effective in identifying potentially problematic response patterns that may not always be captured by traditional methods for identifying careless responders but was not always sensitive to specific carelessness patterns. We discuss implications for research and practice.

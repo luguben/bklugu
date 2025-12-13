@@ -1,0 +1,29 @@
+---
+title: "A cognitive diagnosis model for disengaged behaviors"
+date: 07/1/2025
+image: ../images/cdm-disengaged-behavior.png
+author:
+  - name: Benjamin Lugu 
+    url: https://benjaminlugu.com
+    affiliation: University of Arkansas
+    affiliation-url: https://uark.edu
+  - name: Wenjing Guo
+    affiliation: Pearson Inc.
+  - name: Wenchao Ma
+    url: https://edpsych.umn.edu/wenchao-ma
+    affiliation: University of Minnesota
+    affiliation-url: https://umn.edu    
+citation:
+  type: article-journal
+  container-title: "Behavior Research Methods"
+  doi: "https://doi.org/10.3758/s13428-025-02734-y"
+  url: https://link.springer.com/article/10.3758/s13428-025-02734-y
+appendix-cite-as: bibtex
+#bibliography: biblio.bib 
+# google-scholar: true
+categories: [Cognitive Diagnosis Models, Article]
+reading-time: true
+---
+
+
+Cognitive diagnosis assessments are frequently used for formative purposes. Due to the low-stakes nature of these assessments, students may exhibit disengaged behaviors, such as rapid guessing and item omissions. Most existing studies in cognitive diagnosis models assume that item responses are reflections of students’ proficiency without considering their engagement levels. This study proposes a disengaged behavior cognitive diagnosis model (DB-CDM) that accounts for both disengaged and engaged behaviors simultaneously. We examined the performance of the DB-CDM through simulation and empirical studies. The simulation showed that the item parameters of the DB-CDM were recovered well, especially when the sample size was large and the proportion of disengaged students was small. The DB-CDM can also accurately identify disengaged students, even under some unfavorable conditions involving a large number of disengaged students. By comparing DB-CDM with the compensatory reparameterized unified model in terms of attribute classifications, we observed that the DB-CDM yielded similar if not higher attribute classifications. In the real data analysis, we found that engaged students had a lower probability of omission and guessing and a higher probability of exhibiting solution behavior compared to disengaged students. This paper provides some initial evidence to support the use of DB-CDM when disengaged behaviors occur.

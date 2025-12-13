@@ -1,0 +1,11 @@
+---
+title: "My Reading Library"
+listing:
+  contents: 
+    - books/2023
+    - books/2024
+    - books/2025
+  type: grid
+  grid-columns: 3
+  filter-ui: true
+---
