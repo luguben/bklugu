@@ -485,6 +485,72 @@ a:hover {
 
 
 
+/* ============================================================
+   ONLINE, HYBRID, IN-PERSON COURSES
+   ============================================================ */
+
+.termline{
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+}
+
+.termline .offering{
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  margin-right: .6rem;
+  padding: .18rem .45rem;
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 999px;
+  background: rgba(0,0,0,.02);
+  white-space: nowrap;
+}
+
+.termline .term{
+  color: #111827;
+  font-weight: 500;
+}
+
+/* keep your existing pill styles */
+.modality-pill{
+  display:inline-block;
+  padding:.10rem .5rem;
+  border-radius:999px;
+  font-size:.78rem;
+  font-weight:600;
+  border:1px solid rgba(0,0,0,.10);
+}
+
+.modality-pill.online{ background:#eef5ff; color:#1e40af; }
+.modality-pill.inperson{ background:#ecfdf5; color:#166534; }
+.modality-pill.hybrid{ background:#f5f3ff; color:#5b21b6; }
 
 
+
+
+
+/* ============================================================
+   Schedule appointment with me
+   ============================================================ */
+
+.schedule-link {
+  margin: 1rem 0 1.25rem;
+  text-align: center;
+}
+
+.schedule-link a {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,.15);
+  background: rgba(0,0,0,.03);
+}
+
+.schedule-link a:hover {
+  background: rgba(0,0,0,.06);
+  text-decoration: none;
+}
 

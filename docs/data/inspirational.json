@@ -1,18 +1,8 @@
 [
   {
-    "title": "Where there is anger, there is always pain underneath.",
-    "author": "Ekhart Tolle",
-    "categories": ["Emotional Awareness", "Healing"]
-  },
-  {
-    "title": "Wherever you are, be there totally. If you find your here and now intolerable and it makes you unhappy, you have three options: remove yourself from the situation, change it, or accept it totally.",
-    "author": "Ekhart Tolle",
-    "categories": ["Presence", "Acceptance", "Mindfulness"]
-  },
-  {
-    "title": "Pleasure is always derived from something outside you, whereas joy arises from within.",
-    "author": "Ekhart Tolle",
-    "categories": ["Inner Joy", "Spiritual Growth"]
+    "title": "Nothing can bring you peace but yourself.",
+    "author": "Ralph Waldo Emerson",
+    "categories": ["Inner Peace", "Self-Reliance", "Wisdom"]
   },
   {
     "title": "The present moment is a precious gift. Stop, look, and appreciate it.",
@@ -20,9 +10,34 @@
     "categories": ["Mindfulness", "Gratitude"]
   },
   {
+    "title": "Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom.",
+    "author": "Viktor Frankl",
+    "categories": ["Wisdom", "Choice", "Personal Growth"]
+  },
+  {
+    "title": "Associate with people who are likely to improve you.",
+    "author": "Seneca",
+    "categories": ["Discernment", "Relationships", "Wisdom"]
+  },
+  {
+    "title": "Where there is anger, there is always pain underneath.",
+    "author": "Ekhart Tolle",
+    "categories": ["Emotional Awareness", "Healing"]
+  },
+  {
+    "title": "Men are disturbed not by things, but by the views which they take of them.",
+    "author": "Epictetus",
+    "categories": ["Stoicism", "Mindset", "Emotional Awareness"]
+  },
+  {
     "title": "Acknowledging the good that you already have in your life is the foundation for all abundance.",
     "author": "Ekhart Tolle",
     "categories": ["Gratitude", "Abundance"]
+  },
+  {
+    "title": "Peace is not the absence of conflict, but the ability to cope with it.",
+    "author": "Dorothy Thomas",
+    "categories": ["Peace", "Emotional Regulation", "Strength"]
   },
   {
     "title": "The primary cause of unhappiness is never the situation but your thoughts about it.",
@@ -30,14 +45,59 @@
     "categories": ["Mindset", "Emotional Awareness"]
   },
   {
+    "title": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "categories": ["Resilience", "Perspective", "Mental Strength"]
+  },
+  {
+    "title": "Do not let the behavior of others destroy your inner peace.",
+    "author": "Dalai Lama",
+    "categories": ["Inner Peace", "Boundaries", "Compassion"]
+  },
+  {
+    "title": "The greatest weapon against stress is our ability to choose one thought over another.",
+    "author": "William James",
+    "categories": ["Mindset", "Psychology", "Self-Mastery"]
+  },
+  {
     "title": "You find peace not by rearranging the circumstances of your life, but by realizing who you are at the deepest level.",
     "author": "Ekhart Tolle",
     "categories": ["Inner Peace", "Self-Realization"]
   },
   {
-    "title": "Do not be concerned with the fruit of your action - just give attention to the action itself. The fruit will come of its accord.",
+    "title": "Some things are up to us and some things are not up to us.",
+    "author": "Epictetus",
+    "categories": ["Wisdom", "Boundaries", "Acceptance"]
+  },
+  {
+    "title": "Holding on to anger is like drinking poison and expecting the other person to die.",
+    "author": "Buddhist Proverb",
+    "categories": ["Letting Go", "Anger", "Healing"]
+  },
+  {
+    "title": "Don’t wait to be successful at some future point. Have a successful relationship with the present moment and be fully present in whatever you are doing.",
     "author": "Ekhart Tolle",
-    "categories": ["Mindfulness", "Purpose", "Letting Go"]
+    "categories": ["Success", "Presence", "Mindfulness"]
+  },
+  {
+    "title": "If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any moment.",
+    "author": "Marcus Aurelius",
+    "categories": ["Stoicism", "Inner Peace", "Perspective"]
+  },
+  {
+    "title": "You cannot control what happens to you, but you can control your attitude toward what happens to you.",
+    "author": "Brian Tracy",
+    "categories": ["Mindset", "Responsibility", "Self-Control"]
+  },
+  {
+    "title": "Wherever you are, be there totally. If you find your here and now intolerable and it makes you unhappy, you have three options: remove yourself from the situation, change it, or accept it totally.",
+    "author": "Ekhart Tolle",
+    "categories": ["Presence", "Acceptance", "Mindfulness"]
+  },
+  {
+    "title": "God grant me the serenity to accept the things I cannot change, courage to change the things I can, and wisdom to know the difference.",
+    "author": "Reinhold Niebuhr",
+    "categories": ["Faith", "Wisdom", "Acceptance"]
   },
   {
     "title": "All negativity is caused by an accumulation of psychological time and denial of the present.",
@@ -45,8 +105,18 @@
     "categories": ["Presence", "Negativity", "Mindfulness"]
   },
   {
-    "title": "Don’t wait to be successful at some future point. Have a successful relationship with the present moment and be fully present in whatever you are doing.",
+    "title": "Pleasure is always derived from something outside you, whereas joy arises from within.",
     "author": "Ekhart Tolle",
-    "categories": ["Success", "Presence", "Mindfulness"]
+    "categories": ["Inner Joy", "Spiritual Growth"]
+  },
+  {
+    "title": "Do not be concerned with the fruit of your action - just give attention to the action itself. The fruit will come of its accord.",
+    "author": "Ekhart Tolle",
+    "categories": ["Mindfulness", "Purpose", "Letting Go"]
+  },
+  {
+    "title": "When people show you who they are, believe them the first time.",
+    "author": "Maya Angelou",
+    "categories": ["Boundaries", "Discernment", "Self-Respect"]
   }
 ]

@@ -18,7 +18,7 @@ about:
       target: _blank
       
     - icon: download
-      href: files/cv.pdf
+      href: https://uark.box.com/s/ztdhvkdhu170vm86sem5ji9rj7zpbtov
       target: _blank
             
     - text: "{{< ai google-scholar>}}"

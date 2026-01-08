@@ -109,41 +109,41 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Spring 2026\nAn applied introduction to quantitative reasoning for educators and researchers in adult and continuing education. The course emphasizes understanding and using the hypothetico-deductive research process; describing and summarizing data using appropriate statistical terminology; constructing and interpreting basic statistical models; and presenting results in clear, meaningful ways. Students gain practical experience using SPSS to manage data, conduct statistical analyses, and interpret findings based on real problems encountered in adult education practice and research."
+    "text": "Schedule an appointment"
   },
   {
     "objectID": "teaching.html#adll-64003.-quantitative-methods-for-adult-educators",
     "href": "teaching.html#adll-64003.-quantitative-methods-for-adult-educators",
     "title": "Teaching",
-    "section": "",
-    "text": "Spring 2026\nAn applied introduction to quantitative reasoning for educators and researchers in adult and continuing education. The course emphasizes understanding and using the hypothetico-deductive research process; describing and summarizing data using appropriate statistical terminology; constructing and interpreting basic statistical models; and presenting results in clear, meaningful ways. Students gain practical experience using SPSS to manage data, conduct statistical analyses, and interpret findings based on real problems encountered in adult education practice and research."
+    "section": "ADLL 64003. Quantitative Methods for Adult Educators",
+    "text": "ADLL 64003. Quantitative Methods for Adult Educators\n\n\n\n\n\n\nSpring 2026 Hybrid\n\nAn applied introduction to quantitative reasoning for educators and researchers in adult and continuing education. The course emphasizes understanding and using the hypothetico-deductive research process; describing and summarizing data using appropriate statistical terminology; constructing and interpreting basic statistical models; and presenting results in clear, meaningful ways. Students gain practical experience using SPSS to manage data, conduct statistical analyses, and interpret findings based on real problems encountered in adult education practice and research."
   },
   {
     "objectID": "teaching.html#esrm-50103.-research-methods-in-education",
     "href": "teaching.html#esrm-50103.-research-methods-in-education",
     "title": "Teaching",
     "section": "ESRM 50103. Research Methods in Education",
-    "text": "ESRM 50103. Research Methods in Education\n\n\n\n\n\nSpring 2026\nA foundational course that introduces students to the nature of research problems in education and the systematic processes used to investigate them. The course examines major research designs, strategies for formulating researchable questions, methods for data collection, approaches to evaluating evidence, and principles of interpreting and reporting findings. Emphasis is placed on understanding how educational research is conceptualized, how studies are critically analyzed, and how research informs practice and policy across educational settings."
+    "text": "ESRM 50103. Research Methods in Education\n\n\n\n\n\n\nSpring 2026 Online\n\nA foundational course that introduces students to the nature of research problems in education and the systematic processes used to investigate them. The course examines major research designs, strategies for formulating researchable questions, methods for data collection, approaches to evaluating evidence, and principles of interpreting and reporting findings. Emphasis is placed on understanding how educational research is conceptualized, how studies are critically analyzed, and how research informs practice and policy across educational settings."
   },
   {
     "objectID": "teaching.html#esrm-64003.-educational-statistics-data-processing",
     "href": "teaching.html#esrm-64003.-educational-statistics-data-processing",
     "title": "Teaching",
     "section": "ESRM 64003. Educational Statistics & Data Processing",
-    "text": "ESRM 64003. Educational Statistics & Data Processing\n\n\n\n\n\nFall 2025\nA comprehensive introduction to fundamental statistical concepts and data-analytic techniques commonly used in education and the social sciences. Topics include frequency distributions, graphical data representation, measures of central tendency and variability, simple regression and correlation, chi-square procedures, sampling methods, parameter estimation, and foundations of hypothesis testing. Emphasis is placed on applying these methods to real educational datasets and interpreting results in meaningful, practice-oriented ways. Students gain hands-on experience using R and the R Commander interface for data organization, cleaning, reduction, visualization, and statistical analysis. Required of doctoral candidates."
+    "text": "ESRM 64003. Educational Statistics & Data Processing\n\n\n\n\n\n\nFall 2025 In-Person\n\nA comprehensive introduction to fundamental statistical concepts and data-analytic techniques commonly used in education and the social sciences. Topics include frequency distributions, graphical data representation, measures of central tendency and variability, simple regression and correlation, chi-square procedures, sampling methods, parameter estimation, and foundations of hypothesis testing. Emphasis is placed on applying these methods to real educational datasets and interpreting results in meaningful, practice-oriented ways. Students gain hands-on experience using R and the R Commander interface for data organization, cleaning, reduction, visualization, and statistical analysis. Required of doctoral candidates."
   },
   {
     "objectID": "teaching.html#esrm-58203.-healthcare-business-analytics-i",
     "href": "teaching.html#esrm-58203.-healthcare-business-analytics-i",
     "title": "Teaching",
     "section": "ESRM 58203. Healthcare Business Analytics I",
-    "text": "ESRM 58203. Healthcare Business Analytics I\n\n\n\n\n\nFall 2025\nAn introduction to foundational concepts and analytical techniques used in healthcare business analytics. The course covers data patterns, exploratory analysis, forecasting approaches, and linear prediction models, with attention to the theoretical and mathematical assumptions that underlie statistical modeling. Students engage in hands-on data analysis using Python, R, or SAS, applying these tools to real or simulated healthcare datasets to develop skills in data preparation, model fitting, interpretation, and communication of results."
+    "text": "ESRM 58203. Healthcare Business Analytics I\n\n\n\n\n\n\nFall 2025 Hybrid\n\nAn introduction to foundational concepts and analytical techniques used in healthcare business analytics. The course covers data patterns, exploratory analysis, forecasting approaches, and linear prediction models, with attention to the theoretical and mathematical assumptions that underlie statistical modeling. Students engage in hands-on data analysis using Python, R, or SAS, applying these tools to real or simulated healthcare datasets to develop skills in data preparation, model fitting, interpretation, and communication of results."
   },
   {
     "objectID": "teaching.html#esrm-58503.-healthcare-business-analytics-ii",
     "href": "teaching.html#esrm-58503.-healthcare-business-analytics-ii",
     "title": "Teaching",
     "section": "ESRM 58503. Healthcare Business Analytics II",
-    "text": "ESRM 58503. Healthcare Business Analytics II\n\n\n\n\n\nSpring 2026\nAn intermediate course in healthcare analytics focusing on the analysis of categorical data and the application of logistic regression models for binary, multinomial, and ordinal outcomes. Students examine model assumptions, diagnostic procedures, and interpretation of effects in healthcare contexts. The course also introduces foundational machine learning classification techniques—such as k-nearest neighbors, decision trees, and ensemble methods—with an emphasis on model evaluation, prediction accuracy, and practical decision-making in healthcare settings. Hands-on analytic work is completed using Python, R, or SAS, enabling students to apply statistical and machine learning methods to real or simulated healthcare datasets."
+    "text": "ESRM 58503. Healthcare Business Analytics II\n\n\n\n\n\n\nFall 2025 Hybrid\n\nAn intermediate course in healthcare analytics focusing on the analysis of categorical data and the application of logistic regression models for binary, multinomial, and ordinal outcomes. Students examine model assumptions, diagnostic procedures, and interpretation of effects in healthcare contexts. The course also introduces foundational machine learning classification techniques—such as k-nearest neighbors, decision trees, and ensemble methods—with an emphasis on model evaluation, prediction accuracy, and practical decision-making in healthcare settings. Hands-on analytic work is completed using Python, R, or SAS, enabling students to apply statistical and machine learning methods to real or simulated healthcare datasets."
   }
 ]

@@ -82,5 +82,71 @@
   {
     "title": "Glass’s Δ uses only the standard deviation of the control group, making it useful when the two groups have very different variances.",
     "categories": ["T-test", "Effect Size"]
+  },
+  {
+    "title": "Linear regression estimates how the expected value of an outcome changes with a one-unit change in a predictor."
+  },
+  {
+    "title": "The goal of linear regression is not perfect prediction, but interpretable relationships between variables."
+  },
+  {
+    "title": "Linear regression models conditional means, not individual outcomes."
+  },
+  {
+    "title": "In linear regression, the intercept represents the expected outcome when all predictors equal zero."
+  },
+  {
+    "title": "A linear regression coefficient quantifies average change while holding other predictors constant."
+  },
+  {
+    "title": "In linear regression, residuals represent the portion of the outcome the model cannot explain."
+  },
+  {
+    "title": "Linear regression assumes a systematic, linear relationship between predictors and the outcome."
+  },
+  {
+    "title": "Independence in linear regression requires that observations do not influence one another."
+  },
+  {
+    "title": "Homoscedasticity in linear regression means residual variance is constant across fitted values."
+  },
+  {
+    "title": "In linear regression, normality is an assumption about residuals—not the original variables."
+  },
+  {
+    "title": "Low multicollinearity in linear regression ensures each predictor contributes unique information."
+  },
+  {
+    "title": "Linear regression assumptions are evaluated through diagnostics, not intuition."
+  },
+  {
+    "title": "Residual plots are central to diagnosing assumption violations in linear regression."
+  },
+  {
+    "title": "In linear regression, influential observations matter because they can substantially alter estimates."
+  },
+  {
+    "title": "When linear regression is nonlinear, transformations or polynomial terms are often required."
+  },
+  {
+    "title": "Heteroscedasticity in linear regression calls for robust standard errors or weighted least squares."
+  },
+  {
+    "title": "Dependence in linear regression data requires clustered, mixed, or hierarchical modeling."
+  },
+  {
+    "title": "Multicollinearity in linear regression is addressed through centering, variable selection, or dimension reduction."
+  },
+  {
+    "title": "Outliers in linear regression should be investigated for meaning before any decision to remove them."
+  },
+  {
+    "title": "Linear regression results should be reported with effect sizes, uncertainty, and context."
+  },
+  {
+    "title": "Statistical significance alone is insufficient for interpreting linear regression results."
+  },
+  {
+    "title": "All conclusions from linear regression are conditional on model specification and assumptions."
   }
 ]
